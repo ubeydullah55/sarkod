@@ -20,7 +20,9 @@ $routes->group('admin', function($routes) {
     $routes->post('bileziksecim', 'YeniUrunGirController::yeniSiparis');
     $routes->post('yeniSiparisSave', 'YeniUrunGirController::yeniSiparisSave');
     $routes->get('yeniModel', 'YeniModelController::index');
+    $routes->get('edit/(:num)', 'ProductEditController::edit/$1');
     $routes->post('yeniModelSave', 'YeniModelController::yeniModelSave');
+    $routes->post('productEditSave/(:num)', 'ProductEditController::editSave/$1');
 });
 
 

@@ -38,7 +38,9 @@
                                             </div>
 
                                             <div class="card-body pt-2">
-                                                <span class="text-gradient text-primary text-uppercase text-xs font-weight-bold my-2">SAR</span>
+                                            <a href="<?= base_url('admin/edit/'.$bilezik['id']); ?>" class="card-title h5 d-block text-darker">
+                                                <span class="text-gradient text-primary text-uppercase text-xs font-weight-bold my-2">DÜZENLE</span>
+                                                </a>
                                                 <a href="javascript:;" class="card-title h5 d-block text-darker">
                                                     <?= $bilezik['name']; ?>
                                                 </a>
@@ -63,7 +65,7 @@
 
                                                     <!-- Model adı ve CNC bilgisi -->
                                                     <h5 class="mt-3">Model Adı: <?= $bilezik['name']; ?></h5>
-                                                    <p><strong>CNC Bilgisi:</strong> <?= $bilezik['cnc']; ?></p>
+                                                   
                                                 </div>
                                             </div>
                                         </div>
