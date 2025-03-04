@@ -1,0 +1,574 @@
+INFO - 2025-01-27 02:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 02:39:42 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 02:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 02:39:45 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 06:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 06:01:53 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 08:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 08:39:17 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 08:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 08:53:33 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 08:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 08:53:38 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 09:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 09:06:10 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 09:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 09:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 09:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 09:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 09:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 09:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 09:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 09:35:59 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 09:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 09:36:00 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 10:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 10:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 11:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 11:45:59 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 11:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 11:49:32 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 13:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 13:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 13:58:49 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 15:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 15:31:06 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 16:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 16:51:17 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 17:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 17:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 17:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 17:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-27 18:00:19 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrimage.php on line 30.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(36): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:00:19 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrimage.php on line 0.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(36): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:00:19 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrimage.php on line 0.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(36): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:00:19 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrimage.php on line 0.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(36): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:00:19 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrvect.php on line 140.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(37): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:00:19 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrvect.php on line 140.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(37): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:00:19 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrvect.php on line 140.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(37): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:00:19 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrvect.php on line 140.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(37): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-27 18:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 18:04:17 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 18:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-27 18:05:02 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrimage.php on line 30.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(36): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:05:02 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrimage.php on line 0.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(36): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:05:02 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrimage.php on line 0.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(36): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:05:02 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrimage.php on line 0.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(36): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:05:02 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrvect.php on line 140.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(37): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:05:02 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrvect.php on line 140.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(37): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:05:02 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrvect.php on line 140.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(37): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:05:02 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrvect.php on line 140.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(37): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-27 18:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-27 18:07:10 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrimage.php on line 30.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(36): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:07:10 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrimage.php on line 0.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(36): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:07:10 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrimage.php on line 0.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(36): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:07:10 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrimage.php on line 0.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(36): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:07:10 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrvect.php on line 140.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(37): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:07:10 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrvect.php on line 140.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(37): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:07:10 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrvect.php on line 140.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(37): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-27 18:07:10 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH/Libraries/phpqrcode/qrvect.php on line 140.
+ 1 APPPATH/Libraries/phpqrcode/qrlib.php(37): include('/home/saraltin/public_html/system/Debug/Exceptions.php')
+ 2 APPPATH/Controllers/SiparisInceleController.php(8): require_once('/home/saraltin/public_html/app/Libraries/phpqrcode/qrlib.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(317): include_once('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/saraltin/public_html/app/Controllers/SiparisInceleController.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-27 18:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 18:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 19:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 19:20:15 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 20:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-27 21:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 21:35:10 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 22:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 22:43:58 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 22:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 22:43:59 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 23:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 23:42:50 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2025-01-27 23:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-27 23:42:52 --> TypeError: App\Controllers\ProductViewController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/ProductViewController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ProductViewController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
