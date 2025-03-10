@@ -21,6 +21,13 @@ class ModelListeController extends BaseController
         ]);
     }
 
+    public function bilezikListApi(): string
+    {
+        $bilezikModel = new BilezikModel();
+        $bilezikler = $bilezikModel->findAll();
+        return json_encode($bilezikler);
+    }
+
     
 
 }
