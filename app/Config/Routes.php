@@ -15,6 +15,7 @@ $routes->group('admin', function($routes) {
     $routes->get('login', 'LoginController::index');
     $routes->get('incele', 'SiparisInceleController::index');
     $routes->get('yeniModelListele', 'ModelListeController::index');
+
    
     $routes->post('yenikayitcopy', 'SiparisCopyKayitController::index');
     $routes->post('copykayit', 'SiparisCopyKayitController::saveCopyBilezik');
@@ -29,7 +30,7 @@ $routes->group('admin', function($routes) {
    
 });
 
-
+$routes->get('bilezikListele', 'BilezikListeleController::index');
 $routes->get('/', 'ProductViewController::index');
 
 
