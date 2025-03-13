@@ -65,12 +65,28 @@ class ProductEditController extends BaseController
     
         // Veritabanında güncelleme işlemi
         if ($bilezikModel->update($id, $data)) {
-            return redirect()->to('/admin/yeniModelListele')->with('message', 'Bilezik başarıyla güncellendi.');
+            return redirect()->to('/admin/yeniModelListele')->with('success', 'Bilezik başarıyla güncellendi.');
         } else {
             return redirect()->back()->with('error', 'Güncelleme sırasında bir hata oluştu, lütfen tekrar deneyin.');
         }
     }
     
+    public function delete($id)
+    {
+        // $id parametresini kullanarak veri işlemi yapabilirsiniz
+        $bilezikModel = new BilezikModel(); // Bilezik modelini kullanıyoruz
+        $siparisModel = new SiparisModel(); // Sipariş modelini kullanıyoruz
     
+        // Silinmek istenen bileziğin sipariş tablosunda olup olmadığını kontrol et
+        $siparisVarMi = $siparisModel->where('bilezik_id', $id)->countAllResults();
+    
+        if ($siparisVarMi > 0) {
+            return redirect()->to('/admin/yeniModelListele')->with('error', 'Bu bilezik sipariş geçmişinde bulunduğu için silinemez.Yani bu bilezik bir karekoda tanımlanıp müşteriye verilmiştir.');
+        }
+    
+        // Eğer sipariş geçilmemişse sil
+        $bilezikModel->delete($id);
+        return redirect()->to('/admin/yeniModelListele')->with('success', 'Bilezik başarıyla silindi.');
+    }
 
 }

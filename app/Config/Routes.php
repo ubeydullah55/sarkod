@@ -23,6 +23,7 @@ $routes->group('admin', function($routes) {
     $routes->post('yeniSiparisSave', 'YeniUrunGirController::yeniSiparisSave');
     $routes->get('yeniModel', 'YeniModelController::index');
     $routes->get('edit/(:num)', 'ProductEditController::edit/$1');
+    $routes->get('delete/(:num)', 'ProductEditController::delete/$1');
     $routes->post('yeniModelSave', 'YeniModelController::yeniModelSave');
     $routes->post('productEditSave/(:num)', 'ProductEditController::editSave/$1');
    

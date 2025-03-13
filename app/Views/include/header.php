@@ -30,4 +30,71 @@
   
   <!-- Nepcha Analytics -->
   <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+  <style>
+.square-img {
+    width: 100%;
+    height: 400px; /* Masaüstü için standart yükseklik */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Mobil uyumlu hale getirmek için */
+@media (max-width: 767px) {
+    .square-img {
+        height: 300px; /* Mobilde resmin boyutunu küçültüyoruz */
+    }
+}
+  .filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 15px auto;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: calc(100% - 20px);
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.filter-container input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s;
+    width: 100%;
+}
+
+.filter-container input:focus {
+    border-color:rgb(209, 171, 101);
+}
+
+.filter-container button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background:rgb(209, 171, 101);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    white-space: nowrap;
+}
+
+.filter-container button:hover {
+    background:rgb(209, 171, 101);
+    transform: scale(1.05);
+}
+
+.filter-container button i {
+    margin-right: 5px;
+}
+
+</style>
+
 </head>
