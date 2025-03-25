@@ -2,107 +2,126 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
-  <!-- Apple touch icon -->
-  <link rel="apple-touch-icon" sizes="76x76" href="<?= base_url('assets/assets/img/apple-icon.png') ?>">
-  
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="<?= base_url('assets/assets/img/favicon.ico') ?>">
-  
-  <title>
-    SAR Qr code Takip Sistemi
-  </title>
-  
-  <!-- Fonts and icons -->
-  <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800" rel="stylesheet" />
-  
-  <!-- Nucleo Icons -->
-  <link href="https://demos.creative-tim.com/soft-ui-dashboard/assets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="https://demos.creative-tim.com/soft-ui-dashboard/assets/css/nucleo-svg.css" rel="stylesheet" />
-  
-  <!-- Font Awesome Icons -->
-  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-  
-  <!-- CSS Files -->
-  <link id="pagestyle" href="<?= base_url('assets/assets/css/soft-ui-dashboard.css?v=1.1.0') ?>" rel="stylesheet" />
-  
-  <!-- Nepcha Analytics -->
-  <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
-  <style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-.square-img {
-    width: 100% !important;
-    height: 500px !important;
-    object-fit: cover !important;
-    border-radius: 10px !important;
-}
+    <!-- Apple touch icon -->
+    <link rel="apple-touch-icon" sizes="76x76" href="<?= base_url('assets/assets/img/apple-icon.png') ?>">
 
-@media (max-width: 768px) {
-    .square-img {
-        height: 300px !important; /* Mobilde daha az dikey olması için */
-    }
-}
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="<?= base_url('assets/assets/img/favicon.ico') ?>">
 
-/* Daha küçük telefonlar (iPhone SE gibi) */
-@media (max-width: 480px) {
-    .square-img {
-        height: 300px !important; /* Küçük ekranlarda daha kompakt */
-    }
-}
-  .filter-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin: 15px auto;
-    padding: 10px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    width: calc(100% - 20px);
-    max-width: 400px;
-    box-sizing: border-box;
-}
+    <title>
+        SAR Qr code Takip Sistemi
+    </title>
 
-.filter-container input {
-    flex: 1;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    transition: border 0.3s;
-    width: 100%;
-}
+    <!-- Fonts and icons -->
+    <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800" rel="stylesheet" />
 
-.filter-container input:focus {
-    border-color:rgb(209, 171, 101);
-}
+    <!-- Nucleo Icons -->
+    <link href="https://demos.creative-tim.com/soft-ui-dashboard/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="https://demos.creative-tim.com/soft-ui-dashboard/assets/css/nucleo-svg.css" rel="stylesheet" />
 
-.filter-container button {
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    background:rgb(209, 171, 101);
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s, transform 0.2s;
-    white-space: nowrap;
-}
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
 
-.filter-container button:hover {
-    background:rgb(209, 171, 101);
-    transform: scale(1.05);
-}
+    <!-- CSS Files -->
+    <link id="pagestyle" href="<?= base_url('assets/assets/css/soft-ui-dashboard.css?v=1.1.0') ?>" rel="stylesheet" />
 
-.filter-container button i {
-    margin-right: 5px;
-}
+    <!-- Nepcha Analytics -->
+    <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+    <style>
+        .square-img {
+            width: 100% !important;
+            height: 500px !important;
+            object-fit: cover !important;
+            border-radius: 10px !important;
+        }
 
-</style>
+        @media (max-width: 768px) {
+            .square-img {
+                height: 300px !important;
+                /* Mobilde daha az dikey olması için */
+            }
+        }
+
+        /* Daha küçük telefonlar (iPhone SE gibi) */
+        @media (max-width: 480px) {
+            .square-img {
+                height: 300px !important;
+                /* Küçük ekranlarda daha kompakt */
+            }
+        }
+
+        .filter-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin: 15px auto;
+            padding: 10px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            width: calc(100% - 20px);
+            max-width: 400px;
+            box-sizing: border-box;
+        }
+
+        .filter-container input {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            transition: border 0.3s;
+            width: 100%;
+        }
+
+        .filter-container input:focus {
+            border-color: rgb(209, 171, 101);
+        }
+
+        .filter-container button {
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            background: rgb(209, 171, 101);
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+            white-space: nowrap;
+        }
+
+        .filter-container button:hover {
+            background: rgb(209, 171, 101);
+            transform: scale(1.05);
+        }
+
+        .filter-container button i {
+            margin-right: 5px;
+        }
+
+        .stok-kodu {
+            display: inline-block;
+            background: #f0f0f0;
+            /* Hafif gri arka plan */
+            color: #333;
+            /* Koyu gri yazı rengi */
+            padding: 5px 10px;
+            /* İç boşluk */
+            border-radius: 5px;
+            /* Köşeleri yuvarlak yap */
+            font-size: 14px;
+            /* Yazı boyutu */
+            font-weight: bold;
+            /* Kalın font */
+            margin-top: 5px;
+            /* Üstten boşluk */
+        }
+    </style>
 
 </head>
 
@@ -111,7 +130,13 @@
 <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg">
     <div class="container-fluid py-4">
         <div class="row">
-
+            <div class="col-3"></div>
+            <div class="d-flex justify-content-center align-items-center col-6" style="height: 100px;">
+                <img src="https://sarkod.com.tr/assets/assets/img/logo-ct-dark.png"
+                    alt="main_logo"
+                    style="max-width: 200px; height: auto;">
+            </div>
+            <div class="col-3"></div>
             <div class="col-md-12">
                 <form id="searchForm" class="filter-container">
                     <input type="text" id="searchInput" placeholder="Model adı ara...">
@@ -121,10 +146,10 @@
                 </form>
 
                 <div class="card">
-             
+
 
                     <div class="card-header pb-0 px-3">
-                
+
                         <!-- Arama Formu -->
 
 
@@ -132,19 +157,21 @@
                             <!-- Bilezikler -->
                             <div class="row">
                                 <?php foreach ($bilezikler as $bilezik): ?>
-                                    <div class="col-12 col-sm-4  mb-4 bilezik-card" data-name="<?= strtolower($bilezik['name']); ?>"> <!-- Model adını küçük harflerle alıyoruz -->
+                                    <div class="col-12 col-sm-4  mb-4 bilezik-card" data-name="<?= strtolower($bilezik['name']); ?>" data-stok="sar<?= $bilezik['id']; ?>"> <!-- Model adını küçük harflerle alıyoruz -->
                                         <div class="card">
                                             <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1 text-center">
-                                            
+
                                                 <a href="javascript:;" class="d-block" data-bs-toggle="modal" data-bs-target="#imageModal<?= $bilezik['id']; ?>">
 
-    <img src="https://sarkod.com.tr/products/<?= $bilezik['resim'] ?>" class="img-fluid border-radius-lg square-img" style="max-width: 100%; height: auto;">
-</a>
+                                                    <img src="https://sarkod.com.tr/products/<?= $bilezik['resim'] ?>"  loading="lazy" class="img-fluid border-radius-lg square-img" style="max-width: 100%; height: auto;">
+                                                </a>
                                             </div>
 
-                                            <div class="card-body pt-2">
+                                            <div class="card-body pt-2 pb-0">
                                                 <a href="javascript:;" class="card-title h5 d-block text-darker" style="clear: both; display: block; text-align:center;">
                                                     <?= $bilezik['name']; ?>
+                                                    <br>
+                                                    <p class="stok-kodu">SAR<?= $bilezik['id']; ?></p>
                                                 </a>
                                             </div>
 
@@ -161,7 +188,7 @@
                                                 </div>
                                                 <div class="modal-body">
                                                     <!-- Burada tam boyutta resmi gösteriyoruz -->
-                                                   
+
                                                     <img src="https://sarkod.com.tr/products/<?= $bilezik['resim'] ?>" class="img-fluid" alt="Bilezik Resmi">
 
                                                 </div>
@@ -179,26 +206,22 @@
 
             <script>
                 document.getElementById('searchForm').addEventListener('submit', function(event) {
-                    event.preventDefault(); // Formun sayfayı yenilemesini engelliyoruz
+                    event.preventDefault(); // Sayfanın yenilenmesini engelle
 
-                    var searchTerm = document.getElementById('searchInput').value.trim().toLowerCase(); // Arama terimini alıyoruz ve boşluklardan temizliyoruz
-                    var cards = document.querySelectorAll('.bilezik-card'); // Tüm bilezik kartlarını seçiyoruz
+                    var searchTerm = document.getElementById('searchInput').value.trim().toLowerCase(); // Kullanıcı girişini al
+                    var cards = document.querySelectorAll('.bilezik-card'); // Tüm bilezik kartlarını seç
 
-                    if (searchTerm === "") {
-                        // Arama kutusu boşsa, tüm kartları gösteriyoruz
-                        cards.forEach(function(card) {
+                    cards.forEach(function(card) {
+                        var cardName = card.getAttribute('data-name').toLowerCase(); // Model adı
+                        var cardStok = card.getAttribute('data-stok').toLowerCase(); // Stok kodu
+
+                        // Eğer aranan kelime ürün adında veya stok kodunda varsa göster
+                        if (cardName.includes(searchTerm) || cardStok.includes(searchTerm)) {
                             card.style.display = 'block';
-                        });
-                    } else {
-                        cards.forEach(function(card) {
-                            var cardName = card.getAttribute('data-name').toLowerCase(); // Kartın model adını küçük harfe çeviriyoruz
-                            if (cardName.includes(searchTerm)) {
-                                card.style.display = 'block'; // Eğer model adı arama terimiyle eşleşiyorsa, kartı göster
-                            } else {
-                                card.style.display = 'none'; // Eşleşmiyorsa, kartı gizle
-                            }
-                        });
-                    }
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
                 });
             </script>
 
@@ -212,24 +235,24 @@
 
 
 
-<footer class="footer pt-3">
-    <div class="container-fluid">
-        <div class="row align-items-center justify-content-lg-between">
-            <div class="col-lg-6 mb-lg-0 mb-4">
-                <div class="copyright text-center text-sm text-muted text-lg-start">
-                    © 2025,
-                    made with <i class="fa fa-heart"></i> by
-                    <a href="http://www.ubeydullahdogan.com.tr" class="font-weight-bold" target="_blank">Ubeydullah Dogan</a>
-                    for a better web.Versiyon no: <b>1.06</b>
+    <footer class="footer pt-3">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-lg-between">
+                <div class="col-lg-6 mb-lg-0 mb-4">
+                    <div class="copyright text-center text-sm text-muted text-lg-start">
+                        © 2025,
+                        made with <i class="fa fa-heart"></i> by
+                        <a href="http://www.ubeydullahdogan.com.tr" class="font-weight-bold" target="_blank">Ubeydullah Dogan</a>
+                        for a better web.Versiyon no: <b>1.06</b>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+
                 </div>
             </div>
-            <div class="col-lg-6">
-
-            </div>
         </div>
+    </footer>
     </div>
-</footer>
-</div>
 </main>
 
 
