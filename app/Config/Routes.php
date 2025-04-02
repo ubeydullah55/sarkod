@@ -15,8 +15,6 @@ $routes->group('admin', function($routes) {
     $routes->get('login', 'LoginController::index');
     $routes->get('incele', 'SiparisInceleController::index');
     $routes->get('yeniModelListele', 'ModelListeController::index');
-
-   
     $routes->post('yenikayitcopy', 'SiparisCopyKayitController::index');
     $routes->post('copykayit', 'SiparisCopyKayitController::saveCopyBilezik');
     $routes->get('yeniurungir', 'YeniUrunGirController::index');
@@ -27,7 +25,11 @@ $routes->group('admin', function($routes) {
     $routes->get('delete/(:num)', 'ProductEditController::delete/$1');
     $routes->post('yeniModelSave', 'YeniModelController::yeniModelSave');
     $routes->post('productEditSave/(:num)', 'ProductEditController::editSave/$1');
-   
+
+    $routes->get('siparisBarkod', 'SiparisBarkodController::index');
+    $routes->post('siparisbarkodIncele', 'SiparisBarkodController::incele');
+    $routes->get('siparisOlustur', 'SiparisOlusturController::index');
+    $routes->post('siparisOlusturSave', 'SiparisOlusturController::yeniModelSave');
 });
 
 $routes->get('bilezikListele', 'BilezikListeleController::index');
