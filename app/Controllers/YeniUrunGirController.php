@@ -23,23 +23,33 @@ class YeniUrunGirController extends BaseController
 
     public function yeniSiparis()
     {
-        // Bilezik ID'sini formdan al (post yöntemi ile)
         $bilezikId = $this->request->getPost('bilezik_id');
-        // Eğer bilezik ID'si boşsa, hata mesajı dön
+    
         if (empty($bilezikId)) {
             return redirect()->back()->with('error', 'Bilezik seçilmedi.');
         }
-
-        // BilezikModel'i yükle ve seçilen bileziği al
+    
         $bilezikModel = new BilezikModel();
         $bilezik = $bilezikModel->where('id', $bilezikId)->first();
-
-        // Eğer bilezik bulunamazsa, hata mesajı dön
+    
         if (!$bilezik) {
             return redirect()->back()->with('error', 'Bilezik bulunamadı.');
-        }       
-        return view('yenibilezikkayit', ['bilezik' => $bilezik]);
+        }
+    
+        // 🔽 Kategori adını çekiyoruz
+        $kategoriModel = new \App\Models\KategoriModel();
+        $kategori = $kategoriModel->where('id', $bilezik['kategori_id'])->first();
+    
+        // Eğer kategori yoksa boş string verelim
+        $kategori_adi = $kategori ? $kategori['name'] : 'Kategori Yok';
+    
+        // View'e hem bilezik hem kategori adı gönderiyoruz
+        return view('yenibilezikkayit', [
+            'bilezik' => $bilezik,
+            'kategori_adi' => $kategori_adi
+        ]);
     }
+    
     public function yeniSiparisSave()
     {
         // Formdan gelen verileri al

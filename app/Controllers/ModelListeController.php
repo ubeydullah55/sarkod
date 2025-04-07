@@ -23,9 +23,21 @@ class ModelListeController extends BaseController
 
     public function bilezikListApi(): string
     {
-        $bilezikModel = new BilezikModel();
-        $bilezikler = $bilezikModel->findAll();
-        return json_encode($bilezikler);
+        $bilezikModel = new \App\Models\BilezikModel();
+        $bilezikler = $bilezikModel->getBileziklerWithKategori();
+    
+        $customData = [];
+    
+        foreach ($bilezikler as $bilezik) {
+            $customData[] = [
+                'id'           => $bilezik['id'],
+                'model_adi'    => $bilezik['name'],
+                'kategori_id'  => $bilezik['kategori_id'] ?? null,
+                'kategori_adi' => $bilezik['kategori_adi'] ?? 'Kategori Yok',
+                'resim'        => $bilezik['resim']
+            ];
+        }      
+        return json_encode($customData);
     }
 
     

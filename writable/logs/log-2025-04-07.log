@@ -1,0 +1,1363 @@
+INFO - 2025-04-07 10:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:43:56 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:43:56 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:43:56 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:43:56 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:43:56 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:43:56 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:43:56 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:43:56 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-07 10:43:56 --> TypeError: App\Controllers\SiparisInceleController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: admin/incele]
+in APPPATH\Controllers\SiparisInceleController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiparisInceleController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiparisInceleController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:44:02 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:02 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:02 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:02 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:02 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:02 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:02 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:02 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:44:02 --> [DEPRECATED] Creation of dynamic property QRencode::$cmyk is deprecated in APPPATH\Libraries\phpqrcode\qrencode.php on line 434.
+ 1 APPPATH\Libraries\phpqrcode\qrencode.php(285): QRencode::factory(0, 10, 4, 16777215, 0)
+ 2 APPPATH\Controllers\SiparisInceleController.php(42): QRcode::png('https://www.sarkod.com.tr/?siparis_id=105', null, 0, 10)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiparisInceleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiparisInceleController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:44:07 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:07 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:07 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:07 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:07 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:07 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:07 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:07 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:44:07 --> [DEPRECATED] Creation of dynamic property QRencode::$cmyk is deprecated in APPPATH\Libraries\phpqrcode\qrencode.php on line 434.
+ 1 APPPATH\Libraries\phpqrcode\qrencode.php(285): QRencode::factory(0, 10, 4, 16777215, 0)
+ 2 APPPATH\Controllers\SiparisInceleController.php(42): QRcode::png('https://www.sarkod.com.tr/?siparis_id=104', null, 0, 10)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiparisInceleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiparisInceleController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:44:13 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:13 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:13 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:13 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:13 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:13 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:13 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:13 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:44:13 --> [DEPRECATED] Creation of dynamic property QRencode::$cmyk is deprecated in APPPATH\Libraries\phpqrcode\qrencode.php on line 434.
+ 1 APPPATH\Libraries\phpqrcode\qrencode.php(285): QRencode::factory(0, 10, 4, 16777215, 0)
+ 2 APPPATH\Controllers\SiparisInceleController.php(42): QRcode::png('https://www.sarkod.com.tr/?siparis_id=102', null, 0, 10)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiparisInceleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiparisInceleController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:44:16 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:16 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:16 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:16 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:16 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:16 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:16 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:44:16 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:44:16 --> [DEPRECATED] Creation of dynamic property QRencode::$cmyk is deprecated in APPPATH\Libraries\phpqrcode\qrencode.php on line 434.
+ 1 APPPATH\Libraries\phpqrcode\qrencode.php(285): QRencode::factory(0, 10, 4, 16777215, 0)
+ 2 APPPATH\Controllers\SiparisInceleController.php(42): QRcode::png('https://www.sarkod.com.tr/?siparis_id=55', null, 0, 10)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiparisInceleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiparisInceleController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:45:47 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:47 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:47 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:47 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:47 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:47 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:47 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:47 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:45:47 --> [DEPRECATED] Creation of dynamic property QRencode::$cmyk is deprecated in APPPATH\Libraries\phpqrcode\qrencode.php on line 434.
+ 1 APPPATH\Libraries\phpqrcode\qrencode.php(285): QRencode::factory(0, 10, 4, 16777215, 0)
+ 2 APPPATH\Controllers\SiparisInceleController.php(42): QRcode::png('https://www.sarkod.com.tr/?siparis_id=55', null, 0, 10)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiparisInceleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiparisInceleController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:45:51 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:51 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:51 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:51 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:51 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:51 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:51 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:51 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:45:51 --> [DEPRECATED] Creation of dynamic property QRencode::$cmyk is deprecated in APPPATH\Libraries\phpqrcode\qrencode.php on line 434.
+ 1 APPPATH\Libraries\phpqrcode\qrencode.php(285): QRencode::factory(0, 10, 4, 16777215, 0)
+ 2 APPPATH\Controllers\SiparisInceleController.php(42): QRcode::png('https://www.sarkod.com.tr/?siparis_id=66', null, 0, 10)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiparisInceleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiparisInceleController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:45:56 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:56 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:56 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:56 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:56 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:56 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:56 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:45:56 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:45:56 --> [DEPRECATED] Creation of dynamic property QRencode::$cmyk is deprecated in APPPATH\Libraries\phpqrcode\qrencode.php on line 434.
+ 1 APPPATH\Libraries\phpqrcode\qrencode.php(285): QRencode::factory(0, 10, 4, 16777215, 0)
+ 2 APPPATH\Controllers\SiparisInceleController.php(42): QRcode::png('https://www.sarkod.com.tr/?siparis_id=55', null, 0, 10)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiparisInceleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiparisInceleController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:46:04 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 30.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:46:04 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:46:04 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:46:04 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrimage.php on line 0.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(36): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:46:04 --> [DEPRECATED] Optional parameter $filename declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:46:04 --> [DEPRECATED] Optional parameter $pixelPerPoint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:46:04 --> [DEPRECATED] Optional parameter $outerFrame declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-07 10:46:04 --> [DEPRECATED] Optional parameter $saveandprint declared before required parameter $fore_color is implicitly treated as a required parameter in APPPATH\Libraries\phpqrcode\qrvect.php on line 140.
+ 1 APPPATH\Libraries\phpqrcode\qrlib.php(37): include('C:\\xampp\\htdocs\\sarkod\\system\\Debug\\Exceptions.php')
+ 2 APPPATH\Controllers\SiparisInceleController.php(8): require_once('C:\\xampp\\htdocs\\sarkod\\app\\Libraries\\phpqrcode\\qrlib.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\SiparisInceleController.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiparisInceleController')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiparisInceleController')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SiparisInceleController', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-07 10:46:04 --> [DEPRECATED] Creation of dynamic property QRencode::$cmyk is deprecated in APPPATH\Libraries\phpqrcode\qrencode.php on line 434.
+ 1 APPPATH\Libraries\phpqrcode\qrencode.php(285): QRencode::factory(0, 10, 4, 16777215, 0)
+ 2 APPPATH\Controllers\SiparisInceleController.php(42): QRcode::png('https://www.sarkod.com.tr/?siparis_id=55', null, 0, 10)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiparisInceleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiparisInceleController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 10:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-07 10:59:10 --> ErrorException: Undefined array key "kategori_adi"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 177.
+ 1 APPPATH\Views\bilezikListele.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori_adi"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 177)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 10:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-07 11:00:36 --> ErrorException: Undefined array key "kategori_adi"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 177.
+ 1 APPPATH\Views\bilezikListele.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori_adi"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 177)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 11:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-07 11:02:50 --> BadMethodCallException: Call to undefined method App\Models\BilezikModel::leftjoin
+[Method: GET, Route: bilezikListApi]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Models\BilezikModel.php(70): CodeIgniter\Model->__call('leftjoin', [...])
+ 2 APPPATH\Controllers\ModelListeController.php(27): App\Models\BilezikModel->getBileziklerWithKategori()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ModelListeController->bilezikListApi()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ModelListeController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 11:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-07 11:03:34 --> ErrorException: Undefined array key "kategori_adi"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 177.
+ 1 APPPATH\Views\bilezikListele.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori_adi"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 177)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 11:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-07 11:03:41 --> ErrorException: Undefined array key "kategori_adi"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 177.
+ 1 APPPATH\Views\bilezikListele.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori_adi"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 177)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 11:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-07 11:04:03 --> ErrorException: Undefined array key "kategori_adi"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 177.
+ 1 APPPATH\Views\bilezikListele.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori_adi"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 177)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 11:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-07 11:05:19 --> ErrorException: Undefined array key "kategori_adi"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 177.
+ 1 APPPATH\Views\bilezikListele.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori_adi"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 177)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 11:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 11:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 12:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-07 13:04:15 --> ErrorException: file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+[Method: GET, Route: bilezikListele]
+in APPPATH\Controllers\BilezikListeleController.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed', 'C:\\xampp\\htdocs\\sarkod\\app\\Controllers\\BilezikListeleController.php', 14)
+ 2 APPPATH\Controllers\BilezikListeleController.php(14): file_get_contents('https://localhost/sarkod/bilezikListApi')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-04-07 13:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 13:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 14:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 14:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-07 14:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

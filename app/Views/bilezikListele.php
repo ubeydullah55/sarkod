@@ -152,6 +152,14 @@
 
                         <!-- Arama Formu -->
 
+                        <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 20px;">
+                            <li style="cursor: pointer;" onclick="filterByCategory('mega')">Mega</li>
+                            <li style="cursor: pointer;" onclick="filterByCategory('ajda')">Ajda</li>
+                            <li style="cursor: pointer;" onclick="filterByCategory('sarnel')">Şarnel</li>
+                            <li style="cursor: pointer;" onclick="filterByCategory('burma')">Burma</li>
+                            <li style="cursor: pointer;" onclick="filterByCategory('orgu')">Örgü</li>
+                            <li style="cursor: pointer;" onclick="filterByCategory('hasir')">Hasır</li>
+                        </ul>
 
                         <div class="card-body pt-4 p-3">
                             <!-- Bilezikler -->
@@ -163,7 +171,7 @@
 
                                                 <a href="javascript:;" class="d-block" data-bs-toggle="modal" data-bs-target="#imageModal<?= $bilezik['id']; ?>">
 
-                                                    <img src="https://sarkod.com.tr/products/<?= $bilezik['resim'] ?>"  loading="lazy" class="img-fluid border-radius-lg square-img" style="max-width: 100%; height: auto;">
+                                                    <img src="https://sarkod.com.tr/products/<?= $bilezik['resim'] ?>" loading="lazy" class="img-fluid border-radius-lg square-img" style="max-width: 100%; height: auto;">
                                                 </a>
                                             </div>
 
@@ -174,6 +182,7 @@
                                                     <p class="stok-kodu">SAR<?= $bilezik['id']; ?></p>
                                                 </a>
                                             </div>
+                                            <p class="stok"><?= isset($bilezik['kategori_adi']) ? $bilezik['kategori_adi'] : 'Kategori Yok'; ?></p>
 
                                         </div>
                                     </div>
@@ -273,7 +282,31 @@
         Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
     }
 </script>
+<script>
+    // Filtreleme fonksiyonu
+    function filterByCategory(category) {
+        // Tüm bilezik kartlarını seç
+        var cards = document.querySelectorAll('.bilezik-card');
 
+        // Her bir kart üzerinde kategoriye göre filtreleme yap
+        cards.forEach(function(card) {
+            // Kartın kategori bilgisini al
+            var cardCategory = card.getAttribute('data-category').toLowerCase();
+
+            // Eğer kategori eşleşiyorsa göster, eşleşmiyorsa gizle
+            if (category === 'all' || cardCategory.includes(category)) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+
+    // Sayfa yüklendiğinde tüm ürünleri göstermek için
+    document.addEventListener('DOMContentLoaded', function() {
+        filterByCategory('all');
+    });
+</script>
 <!-- Github buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 

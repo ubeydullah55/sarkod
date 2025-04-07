@@ -43,13 +43,25 @@
                                 <div class="col-md-12 mt-4">
                                     <h6 class="text-uppercase text-secondary">Detaylar</h6>
                                 </div>
-                                <div class="col-md-12">
+                                <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="bilezikAd" class="form-control-label">Bilezik Adı</label>
                                         <input type="text" class="form-control" id="bilezikAd" name="bilezik_ad" placeholder="Bilezik Adını Girin" required>
                                     </div>
                                 </div>
-
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="kategori" class="form-control-label">Kategori Seç</label>
+                                        <select class="form-control" id="kategori" name="kategori_id" required>
+                                            <option value="">-- Kategori Seçin --</option>
+                                            <?php foreach ($kategoriler as $kategori): ?>
+                                                <option value="<?= esc($kategori['id']) ?>">
+                                                    <?= esc($kategori['name']) ?>
+                                                </option>
+                                            <?php endforeach; ?>
+                                        </select>
+                                    </div>
+                                </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="bilezikBasGr" class="form-control-label">Başlangıç Gramı</label>
@@ -70,7 +82,7 @@
                                         <input type="number" class="form-control" id="bilezikGenislik" name="baslangic_bilezikgenislik" placeholder="Başlangıç Genişlik Girin" step="0.01" required>
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="bilezikGenislik" class="form-control-label">Bitiş Genişlik</label>
@@ -98,7 +110,7 @@
         </div>
     </div>
 
-<?= view('include/footer') ?>
+    <?= view('include/footer') ?>
 </main>
 
 <script>

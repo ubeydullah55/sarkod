@@ -2,7 +2,7 @@
 
 
 namespace App\Controllers;
-
+use App\Models\KategoriModel;
 use App\Models\UsersModel;
 use App\Models\SiparisModel;
 use App\Models\BilezikModel;
@@ -16,9 +16,10 @@ class YeniModelController extends BaseController
         if (!$this->session->get('isLoggedIn')) {
             return view('login'); // Login sayfasına yönlendir
         }
-        
+        $kategoriModel=new KategoriModel();
+        $kategoriler = $kategoriModel->findAll();
        
-        return view('yenimodel');
+        return view('yenimodel', ['kategoriler' => $kategoriler]);
     }
 
     public function yeniModelSave()
@@ -30,7 +31,7 @@ class YeniModelController extends BaseController
         $baslangic_bilezikgenislik = $this->request->getPost('baslangic_bilezikgenislik');
         $bitis_bilezikgenislik = $this->request->getPost('bitis_bilezikgenislik');
         $bilezik_cnc = $this->request->getPost('bilezik_cnc');
-        
+        $kategori_id = $this->request->getPost('kategori_id');
         // Resim dosyasını al
         $resim = $this->request->getFile('bilezik_resim');
     
@@ -58,7 +59,8 @@ class YeniModelController extends BaseController
             'bas_gen' => $baslangic_bilezikgenislik, // Başlangıç genişliği
             'bit_gen' => $bitis_bilezikgenislik, // Bitiş genişliği
             'cnc' => $bilezik_cnc, // CNC
-            'resim' => $resimDosyasi  // Yüklenen resim dosyasının adı
+            'resim' => $resimDosyasi,  // Yüklenen resim dosyasının adı
+            'kategori_id' => $kategori_id
         ];
     
         // Kaydetme işlemi

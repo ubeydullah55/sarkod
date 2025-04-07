@@ -25,7 +25,7 @@
                                 <div class="col-md-4">
                                     <div class="position-relative text-center">
                                         <a class="d-block">
-                                        <img src="<?= base_url('products/' . esc($bilezik['resim'])) ?>" alt="img-blur-shadow" class="img-fluid shadow border-radius-md">
+                                            <img src="<?= base_url('products/' . esc($bilezik['resim'])) ?>" alt="img-blur-shadow" class="img-fluid shadow border-radius-md">
 
                                         </a>
                                     </div>
@@ -39,13 +39,23 @@
                                 <div class="col-md-12 mt-4">
                                     <h6 class="text-uppercase text-secondary">Detaylar</h6>
                                 </div>
-                                <div class="col-md-12">
+                                <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="bilezikAd" class="form-control-label">Bilezik Adı</label>
                                         <input type="text" class="form-control" id="bilezikAd" name="bilezik_ad" value="<?= esc($bilezik['name']) ?>" readonly>
                                     </div>
                                 </div>
-                                
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="kategoriAdi" class="form-control-label">Kategori Adı</label>
+                                        <!-- Kategori adını kullanıcıya gösteriyoruz (readonly) -->
+                                        <input type="text" class="form-control" id="kategoriAdi" value="<?= esc($kategori_adi) ?>" readonly>
+
+                                        <!-- kategori_id'yi gizli inputta tutuyoruz -->
+                                        <input type="hidden" name="kategori_id" value="<?= esc($bilezik['kategori_id']) ?>">
+                                    </div>
+                                </div>
+
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="bilezikBasGr" class="form-control-label">Gram</label>
@@ -79,5 +89,5 @@
     </div>
 
 
-<?= view('include/footer') ?>
+    <?= view('include/footer') ?>
 </main>
