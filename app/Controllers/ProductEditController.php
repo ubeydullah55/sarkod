@@ -11,11 +11,16 @@ class ProductEditController extends BaseController
     
     public function edit($id)
     {
-        // $id parametresini kullanarak veri işlemi yapabilirsiniz
-        $model = new BilezikModel();
-        $bilezik = $model->find($id);
-        // View'e bilezik bilgilerini gönderebilirsiniz
-        return view('editProduct', ['bilezik' => $bilezik]);
+        $bilezikModel = new BilezikModel();
+    $kategoriModel = new \App\Models\KategoriModel(); // Kategori modelin varsa
+
+    $bilezik = $bilezikModel->find($id);
+    $kategoriler = $kategoriModel->findAll();
+
+    return view('editProduct', [
+        'bilezik' => $bilezik,
+        'kategoriler' => $kategoriler
+    ]);
     }
     public function editSave($id)
     {
@@ -34,7 +39,7 @@ class ProductEditController extends BaseController
         $baslangic_bilezikgenislik = $this->request->getPost('baslangic_bilezikgenislik');
         $bitis_bilezikgenislik = $this->request->getPost('bitis_bilezikgenislik');
         $bilezik_cnc = $this->request->getPost('bilezik_cnc');
-    
+        $bilezik_kategori = $this->request->getPost('kategori_id');
         // Resim dosyasını al
         $resim = $this->request->getFile('bilezik_resim');
         $resimDosyasi = $bilezik['resim']; // Varsayılan olarak eski resmi kullan
@@ -60,7 +65,8 @@ class ProductEditController extends BaseController
             'bas_gen'  => $baslangic_bilezikgenislik,
             'bit_gen'  => $bitis_bilezikgenislik,
             'cnc'      => $bilezik_cnc,
-            'resim'    => $resimDosyasi
+            'resim'    => $resimDosyasi,
+            'kategori_id'    => $bilezik_kategori
         ];
     
         // Veritabanında güncelleme işlemi

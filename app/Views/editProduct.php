@@ -18,7 +18,7 @@
                         <?php endif; ?>
 
                         <!-- Form Başlangıcı -->
-                        <form method="POST" action="<?= site_url('admin/productEditSave/'. $bilezik['id']) ?>" enctype="multipart/form-data">
+                        <form method="POST" action="<?= site_url('admin/productEditSave/' . $bilezik['id']) ?>" enctype="multipart/form-data">
                             <div class="row">
                                 <!-- Bilezik Resmi -->
                                 <div class="col-4"></div>
@@ -43,13 +43,24 @@
                                 <div class="col-md-12 mt-4">
                                     <h6 class="text-uppercase text-secondary">Detaylar</h6>
                                 </div>
-                                <div class="col-md-12">
+                                <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="bilezikAd" class="form-control-label">Bilezik Adı</label>
                                         <input type="text" class="form-control" id="bilezikAd" name="bilezik_ad" placeholder="Bilezik Adını Girin" value="<?= esc($bilezik['name']) ?>" required>
                                     </div>
                                 </div>
-
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="bilezikKategori" class="form-control-label">Bilezik Kategorisi</label>
+                                        <select name="kategori_id" id="kategori" class="form-control">
+                                            <?php foreach ($kategoriler as $kategori): ?>
+                                                <option value="<?= $kategori['id'] ?>" <?= $kategori['id'] == $bilezik['kategori_id'] ? 'selected' : '' ?>>
+                                                    <?= $kategori['name'] ?>
+                                                </option>
+                                            <?php endforeach; ?>
+                                        </select>
+                                    </div>
+                                </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="bilezikBasGr" class="form-control-label">Başlangıç Gramı</label>
@@ -70,7 +81,7 @@
                                         <input type="number" class="form-control" id="bilezikGenislik" name="baslangic_bilezikgenislik" placeholder="Başlangıç Genişlik Girin" step="0.01" value="<?= esc($bilezik['bas_gen']) ?>" required>
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="bilezikGenislik" class="form-control-label">Bitiş Genişlik</label>
@@ -98,7 +109,7 @@
         </div>
     </div>
 
-<?= view('include/footer') ?>
+    <?= view('include/footer') ?>
 </main>
 
 <script>

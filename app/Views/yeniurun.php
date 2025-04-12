@@ -6,11 +6,11 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
-                <?php if (session()->getFlashdata('message')): ?>
-                            <div class="alert alert-success">
-                                <?= session()->getFlashdata('message') ?>
-                            </div>
-                        <?php endif; ?>
+                    <?php if (session()->getFlashdata('message')): ?>
+                        <div class="alert alert-success">
+                            <?= session()->getFlashdata('message') ?>
+                        </div>
+                    <?php endif; ?>
                     <div class="card-header pb-0 px-3">
                         <h6 class="mb-0">Yeni Ürün</h6>
                     </div>
@@ -20,7 +20,7 @@
                             <div class="form-group">
                                 <select class="form-control" id="bilezikSelect" name="bilezik_id">
                                     <option value="">Bilezik Seçin</option>
-                                    <?php foreach ($bilezikler as $bilezik): ?>
+                                    <?php foreach (array_reverse($bilezikler) as $bilezik): ?>
                                         <option value="<?= esc($bilezik['id']) ?>"><?= esc($bilezik['name']) ?></option>
                                     <?php endforeach; ?>
                                 </select>
@@ -34,5 +34,5 @@
     </div>
 
 
-<?= view('include/footer') ?>
+    <?= view('include/footer') ?>
 </main>

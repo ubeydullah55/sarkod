@@ -144,7 +144,7 @@
                         <i class="fas fa-search"></i> Ara
                     </button>
                 </form>
-
+                <div id="activeFilterContainer" style="text-align: center; margin-top: 10px;"></div>
                 <div class="card">
 
 
@@ -155,58 +155,57 @@
                         <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 20px;">
                             <li style="cursor: pointer;" onclick="filterByCategory('mega')">Mega</li>
                             <li style="cursor: pointer;" onclick="filterByCategory('ajda')">Ajda</li>
-                            <li style="cursor: pointer;" onclick="filterByCategory('sarnel')">Şarnel</li>
+                            <li style="cursor: pointer;" onclick="filterByCategory('şarnel')">Şarnel</li>
                             <li style="cursor: pointer;" onclick="filterByCategory('burma')">Burma</li>
-                            <li style="cursor: pointer;" onclick="filterByCategory('orgu')">Örgü</li>
-                            <li style="cursor: pointer;" onclick="filterByCategory('hasir')">Hasır</li>
+                            <li style="cursor: pointer;" onclick="filterByCategory('örgü')">Örgü</li>
+                            <li style="cursor: pointer;" onclick="filterByCategory('hasır')">Hasır</li>
                         </ul>
 
                         <div class="card-body pt-4 p-3">
                             <!-- Bilezikler -->
-                            <div class="row">
-                                <?php foreach ($bilezikler as $bilezik): ?>
-                                    <div class="col-12 col-sm-4  mb-4 bilezik-card" data-name="<?= strtolower($bilezik['name']); ?>" data-stok="sar<?= $bilezik['id']; ?>"> <!-- Model adını küçük harflerle alıyoruz -->
-                                        <div class="card">
-                                            <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1 text-center">
+                           <!-- ... HEAD kısmı aynı şekilde kalıyor ... -->
 
-                                                <a href="javascript:;" class="d-block" data-bs-toggle="modal" data-bs-target="#imageModal<?= $bilezik['id']; ?>">
+<!-- Bilezik Kartları -->
+<div class="row">
+<?php foreach ($bilezikler as $bilezik): ?>
+    <div class="col-12 col-sm-4  mb-4 bilezik-card"
+         data-name="<?= strtolower($bilezik['model_adi']); ?>"
+         data-stok="sar<?= $bilezik['id']; ?>"
+         data-category="<?= strtolower($bilezik['kategori_adi'] ?? '') ?>"> <!-- Kategori eklendi -->
+        <div class="card">
+            <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1 text-center">
+                <a href="javascript:;" class="d-block" data-bs-toggle="modal" data-bs-target="#imageModal<?= $bilezik['id']; ?>">
+                    <img src="https://sarkod.com.tr/products/<?= $bilezik['resim'] ?>" class="img-fluid border-radius-lg square-img">
+                </a>
+            </div>
+            <div class="card-body pt-2 pb-0">
+                <a href="javascript:;" class="card-title h5 d-block text-darker text-center">
+                    <?= $bilezik['model_adi']; ?>
+                    <br>
+                    <p class="stok-kodu">SAR<?= $bilezik['id']; ?></p>
+                </a>
+            </div>
+            <p class="stok text-center"><?= isset($bilezik['kategori_adi']) ? $bilezik['kategori_adi'] : 'Kategori Yok'; ?></p>
+        </div>
+    </div>
 
-                                                    <img src="https://sarkod.com.tr/products/<?= $bilezik['resim'] ?>" loading="lazy" class="img-fluid border-radius-lg square-img" style="max-width: 100%; height: auto;">
-                                                </a>
-                                            </div>
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal<?= $bilezik['id']; ?>" tabindex="-1" aria-labelledby="imageModalLabel<?= $bilezik['id']; ?>" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><?= $bilezik['model_adi']; ?></h5>
+                    <button style="filter: invert(23%) sepia(94%) saturate(7485%) hue-rotate(200deg) brightness(90%) contrast(120%);" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://sarkod.com.tr/products/<?= $bilezik['resim'] ?>" class="img-fluid" alt="Bilezik Resmi">
+                </div>
+            </div>
+        </div>
+    </div>
+<?php endforeach; ?>
+</div>
 
-                                            <div class="card-body pt-2 pb-0">
-                                                <a href="javascript:;" class="card-title h5 d-block text-darker" style="clear: both; display: block; text-align:center;">
-                                                    <?= $bilezik['name']; ?>
-                                                    <br>
-                                                    <p class="stok-kodu">SAR<?= $bilezik['id']; ?></p>
-                                                </a>
-                                            </div>
-                                            <p class="stok"><?= isset($bilezik['kategori_adi']) ? $bilezik['kategori_adi'] : 'Kategori Yok'; ?></p>
-
-                                        </div>
-                                    </div>
-
-                                    <!-- Modal Yapısı -->
-                                    <div class="modal fade" id="imageModal<?= $bilezik['id']; ?>" tabindex="-1" aria-labelledby="imageModalLabel<?= $bilezik['id']; ?>" aria-hidden="true">
-                                        <div class="modal-dialog modal-lg modal-dialog-centered"> <!-- modal-lg ile modalı büyütüyoruz -->
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="imageModalLabel<?= $bilezik['id']; ?>"> <?= $bilezik['name']; ?></h5>
-                                                    <button style="filter: invert(23%) sepia(94%) saturate(7485%) hue-rotate(200deg) brightness(90%) contrast(120%);" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <!-- Burada tam boyutta resmi gösteriyoruz -->
-
-                                                    <img src="https://sarkod.com.tr/products/<?= $bilezik['resim'] ?>" class="img-fluid" alt="Bilezik Resmi">
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                <?php endforeach; ?>
-                            </div>
                         </div>
 
                     </div>
@@ -283,29 +282,53 @@
     }
 </script>
 <script>
-    // Filtreleme fonksiyonu
-    function filterByCategory(category) {
-        // Tüm bilezik kartlarını seç
-        var cards = document.querySelectorAll('.bilezik-card');
+function filterByCategory(category) {
+    var cards = document.querySelectorAll('.bilezik-card');
 
-        // Her bir kart üzerinde kategoriye göre filtreleme yap
-        cards.forEach(function(card) {
-            // Kartın kategori bilgisini al
-            var cardCategory = card.getAttribute('data-category').toLowerCase();
+    cards.forEach(function(card) {
+        var cardCategory = card.getAttribute('data-category').toLowerCase();
 
-            // Eğer kategori eşleşiyorsa göster, eşleşmiyorsa gizle
-            if (category === 'all' || cardCategory.includes(category)) {
-                card.style.display = 'block';
-            } else {
-                card.style.display = 'none';
-            }
-        });
-    }
-
-    // Sayfa yüklendiğinde tüm ürünleri göstermek için
-    document.addEventListener('DOMContentLoaded', function() {
-        filterByCategory('all');
+        if (category === 'all' || cardCategory.includes(category)) {
+            card.style.display = 'block';
+        } else {
+            card.style.display = 'none';
+        }
     });
+
+    // Aktif filtre etiketini göster
+    var activeFilterContainer = document.getElementById('activeFilterContainer');
+    activeFilterContainer.innerHTML = `
+        <span style="
+            display: inline-block;
+            background: #d1ab65;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            margin-top: 10px;
+        ">
+            ${category.charAt(0).toUpperCase() + category.slice(1)}
+            <span onclick="clearFilter()" style="
+                margin-left: 10px;
+                cursor: pointer;
+                font-weight: bold;
+                color: #fff;
+            ">&times;</span>
+        </span>
+    `;
+}
+function clearFilter() {
+    // Tüm kartları göster
+    var cards = document.querySelectorAll('.bilezik-card');
+    cards.forEach(function(card) {
+        card.style.display = 'block';
+    });
+
+    // Filtre etiketini temizle
+    document.getElementById('activeFilterContainer').innerHTML = '';
+}
+
 </script>
 <!-- Github buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>

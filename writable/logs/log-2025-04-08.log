@@ -1,0 +1,600 @@
+INFO - 2025-04-08 11:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-08 11:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-08 11:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-08 11:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-08 11:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-08 11:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-08 11:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-08 11:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-08 11:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-08 11:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-08 11:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-08 11:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-08 11:15:19 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:15:48 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:15:49 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:15:50 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:16:05 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 160.
+ 1 APPPATH\Views\bilezikListele.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 160)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:16:05 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 160.
+ 1 APPPATH\Views\bilezikListele.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 160)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:16:21 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 160.
+ 1 APPPATH\Views\bilezikListele.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 160)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:16:21 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 160.
+ 1 APPPATH\Views\bilezikListele.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 160)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:16:33 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 160.
+ 1 APPPATH\Views\bilezikListele.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 160)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:16:34 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 160.
+ 1 APPPATH\Views\bilezikListele.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 160)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:16:35 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 160.
+ 1 APPPATH\Views\bilezikListele.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 160)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:16:45 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 160.
+ 1 APPPATH\Views\bilezikListele.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 160)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:16:45 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 160.
+ 1 APPPATH\Views\bilezikListele.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 160)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:17:06 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 160.
+ 1 APPPATH\Views\bilezikListele.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 160)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:18:21 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 172.
+ 1 APPPATH\Views\bilezikListele.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 172)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:18:23 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 172.
+ 1 APPPATH\Views\bilezikListele.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 172)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:18:23 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 172.
+ 1 APPPATH\Views\bilezikListele.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 172)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:18:23 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 172.
+ 1 APPPATH\Views\bilezikListele.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 172)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:18:24 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 172.
+ 1 APPPATH\Views\bilezikListele.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 172)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:18:35 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 187.
+ 1 APPPATH\Views\bilezikListele.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 187)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:18:36 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 187.
+ 1 APPPATH\Views\bilezikListele.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 187)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:18:37 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 187.
+ 1 APPPATH\Views\bilezikListele.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 187)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:18:37 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 187.
+ 1 APPPATH\Views\bilezikListele.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 187)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:18:37 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 187.
+ 1 APPPATH\Views\bilezikListele.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 187)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:19:58 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:21:23 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:21:24 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:21:28 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:22:09 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:22:10 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:22:11 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:22:30 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:22:31 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:22:58 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:22:59 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:23:12 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:23:13 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:23:14 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:23:15 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:24:03 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:24:04 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-08 11:24:05 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: bilezikListele]
+in APPPATH\Views\bilezikListele.php on line 168.
+ 1 APPPATH\Views\bilezikListele.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php', 168)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sarkod\\app\\Views\\bilezikListele.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bilezikListele', [], true)
+ 5 APPPATH\Controllers\BilezikListeleController.php(23): view('bilezikListele', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BilezikListeleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BilezikListeleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
