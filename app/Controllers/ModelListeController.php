@@ -34,7 +34,9 @@ class ModelListeController extends BaseController
                 'model_adi'    => $bilezik['name'],
                 'kategori_id'  => $bilezik['kategori_id'] ?? null,
                 'kategori_adi' => $bilezik['kategori_adi'] ?? 'Kategori Yok',
-                'resim'        => $bilezik['resim']
+                'resim'        => $bilezik['resim'],
+                'cnc'        => $bilezik['cnc'],
+                'sira'        => $bilezik['sira']
             ];
         }      
         return json_encode($customData);
