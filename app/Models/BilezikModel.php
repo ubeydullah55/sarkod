@@ -17,7 +17,8 @@ class BilezikModel extends Model
         'bit_gen',
         'cnc',
         'resim',
-        'kategori_id' // Yeni eklenen alan
+        'kategori_id', // Yeni eklenen alan
+        'sira'
     ];
 
     protected $useTimestamps = false;
@@ -30,7 +31,8 @@ class BilezikModel extends Model
         'bit_gen'     => 'required|decimal',
         'cnc'         => 'permit_empty|string',
         'resim'       => 'permit_empty|string',
-        'kategori_id' => 'required|integer' // Eklenen kural
+        'kategori_id' => 'required|integer', // Eklenen kural
+        'sira' => 'required|integer' // Eklenen kural
     ];
 
     protected $validationMessages = [

@@ -30,6 +30,12 @@ $routes->group('admin', function($routes) {
     $routes->post('siparisbarkodIncele', 'SiparisBarkodController::incele');
     $routes->get('siparisOlustur', 'SiparisOlusturController::index');
     $routes->post('siparisOlusturSave', 'SiparisOlusturController::yeniModelSave');
+    $routes->get('coksatanlarListele', 'CokSatanlarController::index');
+    $routes->post('trendEkle', 'CokSatanlarController::ekleTrend');
+$routes->post('trendSil', 'CokSatanlarController::trendSil');
+$routes->post('trendSiraGuncelle', 'CokSatanlarController::trendSiraGuncelle');
+
+    
 });
 
 $routes->get('bilezikListele', 'BilezikListeleController::index');
