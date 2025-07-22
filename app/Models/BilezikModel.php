@@ -32,7 +32,6 @@ class BilezikModel extends Model
         'cnc'         => 'permit_empty|string',
         'resim'       => 'permit_empty|string',
         'kategori_id' => 'required|integer', // Eklenen kural
-        'sira' => 'required|integer' // Eklenen kural
     ];
 
     protected $validationMessages = [
